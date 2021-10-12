@@ -38,7 +38,7 @@ function outlineThis(url) {
 
 chrome.action.onClicked.addListener(() => {
   chrome.tabs.query({active: true, lastFocusedWindow: true}, (tabs) => {
-    console.log(`[Outliner] action.onClicked(tabs): ${JSON.stringify(tabs)}`);
+    console.log(`[Heepio] action.onClicked(tabs): ${JSON.stringify(tabs)}`);
     
     if (tabs && (tabs.length > 0)) {
       const url = tabs[0].url;
@@ -46,4 +46,3 @@ chrome.action.onClicked.addListener(() => {
     }
   });
 })
-

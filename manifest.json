@@ -16,9 +16,16 @@
   "background" : {
     "service_worker": "background.js"
   },
+
+  "content_scripts": [{
+    "matches": ["https://12ft.io/*"],
+    "js": ["injectedCode.js"]
+    }
+  ],
   "permissions": [
     "activeTab",
     "contextMenus",
-    "tabs"
+    "tabs",
+    "alarms"
   ]
 }
