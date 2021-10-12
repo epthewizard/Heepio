@@ -10,7 +10,7 @@
     "128": "static/hippo-120.png" 
   },
   "action": {
-    "default_icon": "hippo-120.png",
+    "default_icon": "static/hippo-120.png",
     "default_title": "Heepio"
   },
   "background" : {
