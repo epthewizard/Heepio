@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Heepio | Bypazz Paywallz",
+  "version": "1.0.0",
+  "description": "The hippo will bypass paywalls cuz he is big",
+  "author": "epthewizard",
+  "icons": { 
+    "16": "hippo-16.png",
+    "48": "hippo-48.png",
+    "128": "hippo-120.png" 
+  },
+  "action": {
+    "default_icon": "hippo-120.png",
+    "default_title": "Heepio"
+  },
+  "background" : {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "tabs"
+  ]
+}
