@@ -26,6 +26,6 @@
     "activeTab",
     "contextMenus",
     "tabs",
-    "alarms"
+    "webRequest"
   ]
 }
